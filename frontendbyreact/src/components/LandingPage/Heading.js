@@ -19,7 +19,7 @@ function Heading() {
   return (
     <div className="mx-5 h-24 fixed w-[97%] bg-white top-0 left-0 z-30 shadow-md">
       <nav className="w-[100%] 2xl:w-[100%] h-24 2xl:h-24 flex 2xl:flex  justify-evenly 2xl:justify-evenly items-center 2xl:items-center">
-        <div className="flex 2xl:flex w-[35%] 2xl:w-[20%] h-20 2xl:h-20 justify-center 2xl:justify-center items-center 2xl:items-center">
+        <div className="flex 2xl:flex w-[38%] 2xl:w-[20%] h-20 2xl:h-20 justify-center 2xl:justify-center items-center 2xl:items-center">
           <img
             className="w-32 2xl:w-32 h-20 2xl:h-20"
             src={COMPANY_LOGO_URL}
