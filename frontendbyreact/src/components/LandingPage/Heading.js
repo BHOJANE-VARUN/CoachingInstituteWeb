@@ -25,7 +25,7 @@ function Heading() {
             src={COMPANY_LOGO_URL}
             alt="logo"
           />
-          <span className="text-3xl w-80 2xl:text-3xl  2xl:w-[30%] font-serif 2xl:font-serif text-blue-900 mt-3">
+          <span className="text-3xl w-fit 2xl:text-3xl  2xl:w-[30%] font-serif 2xl:font-serif text-blue-900 mt-3">
             {MAIN_NAME}
           </span>
         </div>
