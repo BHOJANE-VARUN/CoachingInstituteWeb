@@ -38,7 +38,7 @@ function Heading() {
         >
           <li onClick={()=> handleScroll(0)} className="p-4 2xl:p-0 text-xl cursor-pointer">Home</li>
           <li onClick={()=> handleScroll(900)} className="p-4 2xl:p-0 text-xl cursor-pointer">Courses</li>
-          <li onClick={()=> handleScroll(1800)} className="p-4 2xl:p-0 text-xl cursor-pointer">About us</li>
+          <li onClick={()=> handleScroll(1600)} className="p-4 2xl:p-0 text-xl cursor-pointer">About us</li>
           <li onClick={()=>handleScroll(2400)} className="p-4 2xl:p-0 text-xl cursor-pointer">Contact us</li>
           <Link to={"/signin"}><li className="p-4 2xl:p-0 text-xl cursor-pointer">Sign In</li></Link>
         </ul>
