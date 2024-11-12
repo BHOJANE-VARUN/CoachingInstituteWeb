@@ -35,7 +35,7 @@ function App() {
       {noHeadingPaths.includes(location.pathname.toLowerCase()) && <Heading />}
       {(!noHeadingPaths.includes(location.pathname.toLowerCase()) && location.pathname!="/signin" ) && <LoggedHeading />}
       <Routes>
-        <Route path="/" element={<><Body /><Courses /><Aboutus/></>} />
+        <Route path="/" element={<><Body /><Courses /><Aboutus/><Footer/></>} />
         <Route path="/signin" element={<Signin />} />
         <Route path='/student' element={<StudentDashboard/>}/>
         <Route path='/admin' element={<AdminDashboard/>}/>
