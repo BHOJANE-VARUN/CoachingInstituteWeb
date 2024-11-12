@@ -50,7 +50,7 @@ export default function SubjectResultViewer() {
       const data = await response.json()
       setTests(data)
     } catch (err) {
-      setError('Failed to load test results. Please try again later.')
+      setError('No test was conducted on this date')
     } finally {
       setLoading(false)
     }
