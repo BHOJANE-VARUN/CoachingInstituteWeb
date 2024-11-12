@@ -24,7 +24,7 @@ import SubjectResults from './components/Faculty/ViewAllResult';
 import StudentMarksEntry from './components/Faculty/FillResult';
 import ViewAttendacne from './components/Faculty/ViewAttendance';
 import SubjectCards from './components/Faculty/SubjectResults';
-
+import Footer from './components/LandingPage/Footer';
 
 
 function App() {
