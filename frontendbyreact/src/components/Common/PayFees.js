@@ -54,7 +54,7 @@ const PayFees = ()=> {
         }),
         })
         closePayForm();
-        //window.location.reload();
+        window.location.reload();
       }
     }
   }
