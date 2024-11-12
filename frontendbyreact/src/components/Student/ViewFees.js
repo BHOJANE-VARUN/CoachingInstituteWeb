@@ -12,7 +12,7 @@ import { BASE_URL } from "../../contants/Links";
                 headers: {
                     "Content-Type": "application/json",
                   },
-                body: JSON.stringify({ "student_id": id }),
+                body: JSON.stringify({ "id": id }),
             });
             const rawdata = await response.json();
             
