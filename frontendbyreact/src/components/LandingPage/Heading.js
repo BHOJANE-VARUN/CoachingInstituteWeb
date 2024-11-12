@@ -40,12 +40,12 @@ function Heading() {
           <li onClick={()=> handleScroll(900)} className="p-4 2xl:p-0 text-xl cursor-pointer">Courses</li>
           <li onClick={()=> handleScroll(1600)} className="p-4 2xl:p-0 text-xl cursor-pointer">About us</li>
           <li onClick={()=>handleScroll(2400)} className="p-4 2xl:p-0 text-xl cursor-pointer">Contact us</li>
-          <Link to={"/signin"}><li className="p-4 2xl:p-0 text-xl cursor-pointer">Sign In</li></Link>
+          <Link to={"/signin"}><li className="p-4 2xl:p-0 text-xl cursor-pointer">Apply Now</li></Link>
         </ul>
         <div className="hidden w-[20%] xl:w-[20%] xl:flex justify-center xl:justify-center">
           <Link to={"/signin"}>
           <button className="text-center 2xl:text-center h-14 2xl:h-14 w-40 2xl:w-40 rounded-md 2xl:rounded-md color text-white 2xl:text-white text-lg 2xl:text-lg font-bold 2xl:font-bold orangebutton">
-            Apply Now
+            Sign in
           </button>
           </Link>
         </div>
