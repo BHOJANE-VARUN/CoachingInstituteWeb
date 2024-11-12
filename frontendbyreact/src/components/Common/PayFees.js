@@ -49,7 +49,7 @@ const PayFees = ()=> {
             "Content-Type": "application/json",
           },
           body:JSON.stringify({
-            "student_id": selectedStudent.id,
+            "id": selectedStudent.id,
             "feesAmount": amount
         }),
         })
